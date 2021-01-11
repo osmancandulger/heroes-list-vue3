@@ -7,7 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
-
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <DcHeroes />
   </div>
@@ -10,9 +9,6 @@ import DcHeroes from "./components/DcHeroes.vue";
 export default {
   name: "App",
   components: { DcHeroes },
-
-
-  
 };
 </script>
 
