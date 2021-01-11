@@ -12,28 +12,13 @@ body {
   display: flex;
   width: 100%;
   height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(230, 238, 245, 0.829);
-}
-
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  background-color: white;
-  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: rgba(230, 238, 245, 0.829);
 }
 
 .container {
@@ -52,7 +37,8 @@ nav {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 16px;
-  overflow-y: scroll;
+  margin: auto;
+  overflow: auto;
 }
 
 .container .ul-list {
@@ -65,8 +51,10 @@ nav {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
   width: 100%;
-  height: 100%;
+  margin-bottom: 15px;
 }
 
 .container .ul-list li {
@@ -86,6 +74,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 15px;
 }
 
 .container .ul-list .delete-button {
@@ -127,6 +116,7 @@ nav {
   background-color: #fdfbdb;
   border-radius: 16px;
   color: #5f5d5d;
+  margin-left: 15px;
 }
 
 .submit-section .hero-input {
@@ -135,5 +125,18 @@ nav {
   border-radius: 16px;
   outline: none;
   padding: 5px;
+}
+
+header {
+  width: 100%;
+  height: 35px;
+  background-color: red;
+}
+
+.title-counter {
+  display: inline;
+  font-size: 27px;
+  margin-bottom: 15px;
+  color: #566b5d;
 }
 /*# sourceMappingURL=style.css.map */

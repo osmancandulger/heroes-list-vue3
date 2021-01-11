@@ -1,10 +1,12 @@
 <template>
-  <div class="w-full flex">
+
+  <div>
     <DcHeroes />
   </div>
 </template>
 <script>
 import DcHeroes from "./components/DcHeroes.vue";
+
 export default {
   name: "App",
   components: { DcHeroes },

@@ -9,19 +9,13 @@ body{
     display: flex;
     width: 100%;
     height: 100vh;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: rgba(230, 238, 245, 0.829);
 }
 
 
-nav{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    width: 100%;
-    justify-content: center;
-}
+
 
 .container{
   
@@ -33,18 +27,24 @@ nav{
     height: 350px;
     flex-direction: column;
     border-radius: 16px;
-    overflow-y: scroll;
+    margin: auto;
+    overflow: auto;
 
-    .ul-list{
+
+    .ul-list{  
+
+
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-content: space-around;
         width: 100%;
-        height: 100%;
+        margin-bottom: 15px;
+
+
     
         li
         {
-
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -52,6 +52,9 @@ nav{
             background: #afa9a915;
             border-radius: 35px;
             align-items: center;
+           margin-bottom: 15px;
+
+
         }
 
 
@@ -92,6 +95,7 @@ nav{
             background-color: rgb(253, 251, 219);
             border-radius: 16px;
             color: rgb(95, 93, 93);
+            margin-left: 15px;
     }
     
 .hero-input{
@@ -102,4 +106,17 @@ nav{
     padding: 5px;
 
 }
+
 }
+header{
+    width: 100%;
+    height: 35px;
+    background-color: red;
+  }
+
+  .title-counter{
+      display: inline;
+      font-size: 27px;
+      margin-bottom: 15px;
+      color: rgb(86, 107, 93);
+  }

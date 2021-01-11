@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1  v-if="heroesCount > 1">
+    <h1 class="title-counter"  v-if="heroesCount > 1">
       DC Heroes List with {{ heroesCount }} heroes
     </h1>
     <h1  v-else-if="!heroesCount">
