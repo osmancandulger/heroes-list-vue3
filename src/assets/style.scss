@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 238, 245, 0.829);
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.container{
+  
+    background-color: rgba(222, 248, 235, 0.445);
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow-y: scroll;
+
+    .ul-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+    
+        li
+        {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 15px;
+            background: #afa9a915;
+            border-radius: 35px;
+            align-items: center;
+        }
+
+
+        .delete-button{
+            position: relative;
+            justify-self:end;
+            outline: none;
+            border: none;
+            width: 55px;
+            height: 25px;
+            background-color: rgb(222, 220, 231);
+            border-radius: 16px;
+            cursor: pointer;
+            transition: .4s all;
+            margin-right: 15px;
+            
+
+
+            
+        }
+        .delete-button:hover{
+            transform: scale(1.1);
+        }
+        
+    }
+
+}
+
+.submit-section{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+    button{
+        width: 75px;
+            height: 25px;
+            border: none;
+            background-color: rgb(253, 251, 219);
+            border-radius: 16px;
+            color: rgb(95, 93, 93);
+    }
+    
+.hero-input{
+    background: rgb(252, 255, 255);
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    padding: 5px;
+
+}
+}

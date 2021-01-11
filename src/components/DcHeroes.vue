@@ -1,33 +1,37 @@
 <template>
-  <div class="m-auto">
-    <h1 class="text-2xl text-center" v-if="heroesCount > 1">
+  <div class="container">
+    <h1  v-if="heroesCount > 1">
       DC Heroes List with {{ heroesCount }} heroes
     </h1>
-    <h1 class="text-2xl text-center" v-else-if="!heroesCount">
+    <h1  v-else-if="!heroesCount">
       There is no Hero yet.
     </h1>
 
-    <h1 class="text-2xl text-center" v-else>
+    <h1 v-else>
       DC Heroes List with {{ heroesCount }} hero
     </h1>
 
-    <ul>
-      <li
-        class="flex justify-between"
+    <ul class="ul-list">
+      <li class="list-items"
+        
         v-for="(hero, index) in dcHeroes"
         :key="index"
       >
-        <div>
-          {{ hero.name }} <button v-on:click="removeHero(index)">Delete</button>
+        <div >
+          {{ hero.name }}
         </div>
+        <button class="delete-button" v-on:click="removeHero(index)">Delete</button>
       </li>
     </ul>
-    <input class="border-2" type="text" v-model="newHero" placeholder="Type" />
+    
+  </div>
+  <div class="submit-section">
+  <input class="hero-input" type="text" v-model="newHero" placeholder="Type your hero name" onfocus='this.placeholder=" "' onblur='this.placeholder="Type your hero name"' />
 
-    <button class="border-2" type="submit" v-on:click.prevent="addHero">
+    <button class="submit-button" type="submit" v-on:click.prevent="addHero">
       Add a Hero
     </button>
-  </div>
+    </div>
 </template>
 
 <script>
