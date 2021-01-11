@@ -1,11 +1,9 @@
 <template>
 <AppHeader />
- <div class="w-full flex">
+ <div class="w-full flex" >
 <DcHeroes />
 </div>
 </template>
-
-
 <script>
 
 import AppHeader from "./components/AppHeader.vue";
