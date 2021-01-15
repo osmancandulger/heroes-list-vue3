@@ -1,4 +1,4 @@
-# vue3
+# heroes-list-vue3
 
 #### I made this project as a part of the learning of Vue 3.In this project I made a simple application to create a DC Heroes List
 
