@@ -1,12 +1,11 @@
 # vue3
 
-## I made this project as a part of the learning of Vue 3.In this project I made a simple application to create a DC Heroes List
+#### I made this project as a part of the learning of Vue 3.In this project I made a simple application to create a DC Heroes List
 
-## I tried to figure out these kind of concepts;
+#### I tried to figure out these kind of concepts;
 
-# How can we work with new Vue3 ? then i use v-for,v-bind,v-if, I clearly understood the differences between v-if and v-show and applied it to the project.
-
-# I understood the differences between computed property and methods by experimenting on the project.
+How can we work with new Vue3 ? then i use v-for,v-bind,v-if, I clearly understood the differences between v-if and v-show and applied it to the project.
+ I understood the differences between computed property and methods by experimenting on the project.
 
 ## Project setup
 
